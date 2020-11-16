@@ -1,4 +1,5 @@
-import streamlit as st 
+import streamlit as st
+import nltk
 from newspaper import Article
 nltk.download("punkt")
 

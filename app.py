@@ -1,5 +1,6 @@
 import streamlit as st 
 from newspaper import Article
+nltk.download("punkt")
 
 "## Enter your News url here"
 url = st.text_input("url")
